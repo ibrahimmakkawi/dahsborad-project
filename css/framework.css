@@ -1,0 +1,246 @@
+:root {
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --grey-color: #888;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* start box */
+
+.dblock {
+  display: block;
+}
+
+.dflex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+/* padd + margin */
+
+.p10 {
+  padding: 10px;
+}
+
+.mb15 {
+  margin-bottom: 15px;
+}
+
+.p15 {
+  padding: 15px;
+}
+
+.fs12 {
+  font-size: 12px;
+}
+
+.fs11 {
+  font-size: 11px;
+}
+
+.m0 {
+  margin: 0;
+}
+
+.pl10 {
+  padding-left: 10px;
+}
+
+.p20 {
+  padding: 20px;
+}
+
+.m10 {
+  margin: 10px;
+}
+.m20 {
+  margin: 20px;
+}
+
+.mt0 {
+  margin-top: 0;
+}
+
+.mt5 {
+  margin-top: 5px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mt15 {
+  margin-top: 15px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+.mb5 {
+  margin-bottom: 5px;
+}
+/* color */
+
+.cblue {
+  color: var(--blue-color);
+}
+
+.cgreen {
+  color: var(--green-color);
+}
+.corange {
+  color: var(--orange-color);
+}
+
+.cred {
+  color: #f44336;
+}
+.bgorange {
+  background-color: var(--orange-color);
+}
+
+.bggreen {
+  background-color: #22c55e;
+}
+.bg-white {
+  background-color: white;
+}
+
+.bgeee {
+  background-color: #eee;
+}
+
+.bgred {
+  background-color: #f44336;
+}
+
+.bgblue {
+  background-color: var(--blue-color);
+}
+/* position */
+
+.prelative {
+  position: relative;
+}
+
+/* font  */
+
+.fs13 {
+  font-size: 13px;
+}
+
+.fs15 {
+  font-size: 15px;
+}
+
+.fs20 {
+  font-size: 20px;
+}
+
+.fs25 {
+  font-size: 25px;
+}
+.fs14 {
+  font-size: 14px;
+}
+
+.cblack {
+  color: black;
+}
+
+.cwhite {
+  color: white;
+}
+
+.txtc {
+  text-align: center;
+}
+
+.cgray {
+  color: var(--grey-color);
+}
+
+.fbold {
+  font-weight: bold;
+}
+/* border */
+
+.rad6 {
+  border-radius: 6px;
+}
+
+.rad10 {
+  border-radius: 10px;
+}
+
+.bno {
+  border: none;
+}
+
+/* component */
+
+.bet-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnshape {
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* width */
+
+.wfull {
+  width: 100%;
+}
+
+.wfit {
+  width: fit-content;
+}
+/* grid */
+
+.dgrid {
+  display: grid;
+}
+
+.g20 {
+  gap: 20px;
+}
+
+@media (max-width: 767px) {
+  .txtc-mob {
+    text-align: center;
+  }
+
+  .block-mob {
+    display: block;
+  }
+}
+
+/* button */
