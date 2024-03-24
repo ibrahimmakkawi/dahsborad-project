@@ -1810,3 +1810,9 @@ ul {
   display: block;
   width: fit-content;
 }
+
+@media (max-width: 767px) {
+  .friend-page .btnshape {
+    font-size: 12px;
+  }
+}
