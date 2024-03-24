@@ -1810,9 +1810,26 @@ ul {
   display: block;
   width: fit-content;
 }
+.friend-page .btnshape {
+  font-size: 14px;
+}
 
-@media (max-width: 767px) {
+.friend-page .info span {
+  font-size: 13px;
+}
+
+@media (max-width: 567px) {
   .friend-page .btnshape {
     font-size: 12px;
+  }
+
+  .friend-page .info span {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .friend-page .info span {
+    font-size: 13px;
   }
 }
